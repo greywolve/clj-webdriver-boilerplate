@@ -48,8 +48,8 @@ Look in ```src/testsuite/core.clj```
 
 ##Credit
 
-All credit goes to [Sean Corfield](http://corfield.org/), thanks for showing your setup :)
-
+- [Sean Corfield](http://corfield.org/) for showing his browser-testing setup :)
+- [Daniel Gregoire](https://github.com/semperos) for the awesome [clj-webdriver](https://github.com/semperos/clj-webdriver)
 
 
 
