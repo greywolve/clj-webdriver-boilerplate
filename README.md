@@ -48,9 +48,9 @@ Look in ```src/testsuite/core.clj```
 
 ##Credit
 
-- [Sean Corfield](http://corfield.org/) for showing his browser-testing setup :)
+- [Sean Corfield](http://corfield.org/) for showing his browser-testing setup 
 - [Daniel Gregoire](https://github.com/semperos) for the awesome [clj-webdriver](https://github.com/semperos/clj-webdriver)
-
+- [Robert Stuttaford](https://github.com/robert-stuttaford) for suggesting this :)
 
 
 
