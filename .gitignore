@@ -11,3 +11,11 @@ pom.xml.asc
 .lein-failures
 .lein-plugins
 .lein-repl-history
+# Created by http://gitignore.io
+
+### vim ###
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
