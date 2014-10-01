@@ -5,6 +5,7 @@
 
 (deftest login-to-github-no-username 
   (browser-up)
+  (to "http://www.github.com")
   (click "a[href*='login']")
   (input-text "#password" "your-password")
   (submit "#password")
