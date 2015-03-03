@@ -9,5 +9,5 @@
   (click "a[href*='login']")
   (input-text "#login_field" "someusername")
   (submit "#password")
-  (is (= "Some wrong statement" (text ".flash"))) 
+  (is (= "Incorrect username or password." (text ".flash"))) 
   (browser-down)) 
