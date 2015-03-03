@@ -4,5 +4,5 @@
   :license {:name "MIT License"
             :url "https://github.com/greywolve/clj-webdriver-boilerplate/blob/master/LICENSE"}
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [clj-webdriver "0.6.0"]]
+                 [clj-webdriver "0.6.1"]]
   :eval-in :leiningen)
