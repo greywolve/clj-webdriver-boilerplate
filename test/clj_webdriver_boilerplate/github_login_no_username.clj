@@ -1,7 +1,7 @@
-(ns testsuite.github-login-no-username  
+(ns clj-webdriver-boilerplate.github-login-no-username  
   (:require [clj-webdriver.taxi :refer :all]
             [clojure.test :refer :all]
-            [testsuite.core :refer [browser-up browser-down]]))
+            [clj-webdriver-boilerplate.core :refer [browser-up browser-down]]))
 
 (deftest login-to-github-no-username 
   (browser-up)

@@ -1,4 +1,4 @@
-(ns testsuite.core
+(ns clj-webdriver-boilerplate.core
   (:require [clj-webdriver.taxi :refer :all]))
 
 (def ^:private browser-count (atom 0))
@@ -15,5 +15,4 @@
   [& {:keys [force] :or {force false}}]
   (when (zero? (swap! browser-count (if force (constantly 0) dec)))
     (quit)))
-
 
