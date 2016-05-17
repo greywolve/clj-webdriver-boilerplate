@@ -1,5 +1,5 @@
 (ns leiningen.with-browser
-  (:require [testsuite.core :refer :all]
+  (:require [clj-webdriver-boilerplate.core :refer :all]
             [leiningen.core.main :as main]))
 
 (defn ^:higher-order with-browser
