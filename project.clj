@@ -5,7 +5,7 @@
             :url "https://github.com/greywolve/clj-webdriver-boilerplate/blob/master/LICENSE"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [clj-webdriver "0.7.2"]
-                 [org.seleniumhq.selenium/selenium-java "2.53.0"]
+                 [org.seleniumhq.selenium/selenium-java "2.53.1"]
                  ; > Starting with 2.53.0 you need to explicitly include HtmlUnitDriver as a dependency to include it.
                  ; > Version number of the driver is now tracking HtmlUnit itself.
                  ; Source: http://www.seleniumhq.org/download/maven.jsp
